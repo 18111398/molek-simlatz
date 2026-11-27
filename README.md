@@ -18,3 +18,6 @@ g++ main_trace.cpp sim.cpp -O2 -s -std=c++23 -o molek-traz
 ```
 
 You can try with any compiler and any flags you like.
+
+### Usage (currently)
+```molek-simlatz [file path]```
