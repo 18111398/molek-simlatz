@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
                     break;
                 }
             }
-            if (sim.get_output_count() == 120) {
+            if (sim.get_output_count() >= 120) {
                 std::cout << "120th output at cycle " << sim.get_cycles() << std::endl;
                 std::cout << "Disclaimer: No full collision detection, no output check" << std::endl;
                 std::cout << sim.get_cycles() << "/" << (int)sim.metric_parts << "/" << (int)sim.metric_instrs << std::endl;
